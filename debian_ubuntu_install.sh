@@ -106,10 +106,10 @@ apt -y install git
 if curl -s cip.cc|grep "中国";then
 ##git clone https://gitee.com/link4all_admin/vps.git
 #git clone https://jihulab.com/link4all/vps.git 
- git clone -c http.sslverify=false https://github.com/atnnewstv/minetv-vps.git
+ git clone https://github.com/atnnewstv/minetv-vps.git
 else
 #git clone https://github.com/hewenhao2008/vps.git
- git clone -c http.sslverify=false https://github.com/atnnewstv/minetv-vps.git
+ git clone https://github.com/atnnewstv/minetv-vps.git
 fi
 
 cd vps
