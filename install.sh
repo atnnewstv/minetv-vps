@@ -77,7 +77,7 @@ sed -i 's/eth0/'$ethname'/g' /etc/iptables/rules.v4
 sed -i 's/eth0/'$ethname'/g' /etc/iptables/rules.v6
 #安装 x-ui
 # bash x-ui-install.sh
-bash x-ui-install.sh -y
+bash x-ui-install.sh Y
 
 apt install libssl-dev -f
 git clone https://gitee.com/link4all_admin/chipvpn.git
@@ -90,7 +90,7 @@ rm -rf chipvpn
 update-rc.d tcpvpn defaults
 # bash x-ui-install.sh
 # rm -rf ../vps
-bash x-ui-install.sh -y
+bash x-ui-install.sh Y
 rm -rf ../minetv-vps
 
 
